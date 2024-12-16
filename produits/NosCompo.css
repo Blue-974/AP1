@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bleu-royal: #5271ff;
+    --dark-grey: #463f57;
+    --light-grey: #bdbdbd;
+    --orange: #fdb64c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--dark-grey);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: var(--light-grey);
+}
+
+nav i {
+    padding: 10px;
+    margin: 20px;
+    color: var(--dark-grey);
+    border-radius: 7px;
+}
+
+i {
+    font-size: 30px;
+}
+
+nav i:hover {
+    background-color: var(--dark-grey);
+    color: var(--light-grey);
+    transition: .6s;
+}
+
+nav img {
+    width: 75px;
+    height: 75px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.card {
+    padding: 0 50px;
+}
+
+.cardProduits {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    background-color: var(--bleu-royal);
+    border-radius: 15px;
+}
+
+.content {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content img {
+    width: 300px;
+}
+
+.prix {
+    padding-left: 20px;
+}
+
+.prix p {
+    padding: 50px 0;
+}
+
+.btnAchat {
+    display: flex;
+    justify-self: flex-end;
+}
+
+button {
+    margin: 70px 20px 0 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--orange);
+    color: var(--dark-grey);
+}
+
+button:hover {
+    background-color: var(--dark-grey);
+    color: var(--orange);
+    transition: .6s;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-grey);
+    padding: 10px;
+}
+
+footer a {
+    color: var(--dark-grey);
+    text-decoration: none;
+}

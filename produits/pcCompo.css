@@ -54,6 +54,10 @@ h1 {
     margin: 50px;
 }
 
+.card {
+    padding: 0 50px;
+}
+
 .cardProduits {
     display: flex;
     flex-wrap: wrap;
@@ -65,13 +69,42 @@ h1 {
     border-radius: 15px;
 }
 
-.cardProduits p {
-    display: flex;
-
+.content {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.cardProduits img {
+.content img {
     width: 300px;
+}
+
+.prix {
+    padding-left: 20px;
+}
+
+.prix p {
+    padding: 50px 0;
+}
+
+.btnAchat {
+    display: flex;
+    justify-self: flex-end;
+}
+
+button {
+    margin: 70px 20px 0 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--orange);
+    color: var(--dark-grey);
+}
+
+button:hover {
+    background-color: var(--dark-grey);
+    color: var(--orange);
+    transition: .6s;
 }
 
 footer {

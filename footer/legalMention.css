@@ -7,9 +7,8 @@
     --orange: #fdb64c;
 }
 
-a {
-    color: var(--bleu-royal);
-    text-decoration: none;
+html {
+    scroll-behavior: smooth;
 }
 
 * {
@@ -54,8 +53,12 @@ nav img {
     height: 75px;
 }
 
+a {
+    color: var(--bleu-royal);
+    text-decoration: none;
+}
 
-main h1 , h2{
+main h1 , h2 {
     text-decoration: underline;
 }
 
@@ -72,7 +75,7 @@ footer a {
 }
 
 .mention_L_text {
-    margin: 9px;
+    margin: 30px;
 }
 
 .Mention_L {

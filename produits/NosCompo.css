@@ -64,7 +64,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     margin: 50px;
-    padding: 20px;
+    padding: 40px;
     background-color: var(--bleu-royal);
     border-radius: 15px;
 }
@@ -85,26 +85,6 @@ h1 {
 
 .prix p {
     padding: 50px 0;
-}
-
-.btnAchat {
-    display: flex;
-    justify-self: flex-end;
-}
-
-button {
-    margin: 70px 20px 0 20px;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: var(--orange);
-    color: var(--dark-grey);
-}
-
-button:hover {
-    background-color: var(--dark-grey);
-    color: var(--orange);
-    transition: .6s;
 }
 
 footer {
